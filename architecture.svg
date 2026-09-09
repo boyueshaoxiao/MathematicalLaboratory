@@ -1,0 +1,233 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC',sans-serif">
+  <defs>
+    <filter id="sh" x="-10%" y="-10%" width="125%" height="135%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#334155" flood-opacity="0.14"/>
+    </filter>
+    <marker id="arr" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0L10,5L0,10z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+
+  <!-- 画布背景 -->
+  <rect x="0" y="0" width="1600" height="1200" fill="#eef2f7"/>
+  <text x="40" y="42" font-size="27" font-weight="800" fill="#0f172a">「数学空间实验室」站点架构总览</text>
+  <text x="1560" y="44" text-anchor="end" font-size="13" fill="#64748b">Vue 3.5 · Vite 7 · three.js ^0.179 · 纯静态 SPA · 2026-09</text>
+  <line x1="40" y1="58" x2="1560" y2="58" stroke="#dbe3ec" stroke-width="1.5"/>
+
+  <!-- ============ ① 入口与外壳 ============ -->
+  <rect x="40" y="70" width="1520" height="150" rx="16" fill="#eef2ff" stroke="#c7d2fe" stroke-width="2"/>
+  <text x="64" y="102" font-size="19" font-weight="800" fill="#3730a3">① 入口与外壳 —— App.vue 单页应用外壳</text>
+  <text x="1536" y="102" text-anchor="end" font-size="12.5" fill="#6366f1">仅 Vue 依赖 · 无 vue-router · 无状态管理库</text>
+  <text x="64" y="128" font-size="13" fill="#1e293b">加载链与状态入口：</text>
+
+  <!-- 加载链 -->
+  <g>
+    <rect x="152" y="136" width="190" height="44" rx="10" fill="#ffffff" stroke="#a5b4fc"/>
+    <text x="247" y="163" text-anchor="middle" font-size="13" font-weight="700" fill="#334155">index.html</text>
+    <line x1="344" y1="158" x2="360" y2="158" stroke="#94a3b8" stroke-width="2" marker-end="url(#arr)"/>
+    <rect x="364" y="136" width="190" height="44" rx="10" fill="#ffffff" stroke="#a5b4fc"/>
+    <text x="459" y="163" text-anchor="middle" font-size="13" font-weight="700" fill="#334155">src/main.js</text>
+    <line x1="556" y1="158" x2="572" y2="158" stroke="#94a3b8" stroke-width="2" marker-end="url(#arr)"/>
+    <rect x="576" y="136" width="190" height="44" rx="10" fill="#fff7ed" stroke="#fdba74"/>
+    <text x="671" y="163" text-anchor="middle" font-size="13" font-weight="700" fill="#7c2d12">App.vue 外壳</text>
+    <line x1="730" y1="140" x2="730" y2="176" stroke="#dbe3ef" stroke-width="1.5"/>
+  </g>
+
+  <!-- 职责 -->
+  <text x="756" y="160" font-size="12.5" fill="#475569">• 顶栏 6 个实验室 Tab：ref 状态切换内容区（非路由）</text>
+  <text x="756" y="182" font-size="12.5" fill="#475569">• URL 深链直达各栏目：?lab · ?view · ?fmod · ?amod · ?dmod · ?umod · ?gmod</text>
+  <text x="756" y="204" font-size="12.5" fill="#475569">• 快捷演示：?demo=box,cuboid 自动构图 · ?multi / ?diag 三视图开关</text>
+
+  <!-- 连接箭头 ①→② -->
+  <line x1="820" y1="222" x2="820" y2="234" stroke="#94a3b8" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <!-- ============ ② 几何实验室 ============ -->
+  <rect x="40" y="238" width="1520" height="268" rx="16" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
+  <text x="64" y="272" font-size="18.5" font-weight="800" fill="#1e3a8a">② 几何实验室 GeometryLab —— three.js 3D 场景 · 7 种教学模式</text>
+  <text x="1536" y="272" text-anchor="end" font-size="12" fill="#2563eb">模板 v-if 切换 · 无 keep-alive（场景数据常驻 App）</text>
+  <text x="64" y="300" font-size="12.5" fill="#475569">左侧图形库 addShape → 中央 WebGL 场景（自由 / 前 / 后 / 左 / 右 / 上 / 下 正交视角，支持 3D 拖拽）→ 右侧对象检查器实时双向同步</text>
+
+  <!-- 7 张模式卡 -->
+  <g>
+    <rect x="64"  y="318" width="196" height="166" rx="12" fill="#ffffff" stroke="#bfdbfe" filter="url(#sh)"/>
+    <text x="78" y="345" font-size="14" font-weight="800" fill="#0f172a">组合 · 多视图</text>
+    <rect x="196" y="328" width="58" height="18" rx="9" fill="#dbeafe"/>
+    <text x="225" y="341" text-anchor="middle" font-size="10.5" fill="#1d4ed8">scene</text>
+    <text x="78" y="373" font-size="11.5" font-family="Consolas,monospace" fill="#334155">GeometryViewer.vue</text>
+    <text x="78" y="393" font-size="11.5" font-family="Consolas,monospace" fill="#334155">MultiView.vue</text>
+    <text x="78" y="418" font-size="10.5" fill="#64748b">自由视角 / 七向正交 / 三视图</text>
+    <text x="78" y="436" font-size="10.5" fill="#64748b">棱线 · 网格 · 半透明 · 3D 拖拽</text>
+
+    <rect x="277" y="318" width="196" height="166" rx="12" fill="#ffffff" stroke="#bfdbfe" filter="url(#sh)"/>
+    <text x="291" y="345" font-size="14" font-weight="800" fill="#0f172a">单体展开图</text>
+    <rect x="409" y="328" width="58" height="18" rx="9" fill="#dbeafe"/>
+    <text x="438" y="341" text-anchor="middle" font-size="10.5" fill="#1d4ed8">unfold</text>
+    <text x="291" y="373" font-size="11.5" font-family="Consolas,monospace" fill="#334155">UnfoldViewer.vue</text>
+    <text x="291" y="418" font-size="10.5" fill="#64748b">立体 → 平面展开 / 还原动画</text>
+    <text x="291" y="436" font-size="10.5" fill="#64748b">输出可打印的 SVG 展开图</text>
+
+    <rect x="490" y="318" width="196" height="166" rx="12" fill="#ffffff" stroke="#bfdbfe" filter="url(#sh)"/>
+    <text x="504" y="345" font-size="14" font-weight="800" fill="#0f172a">三视图挑战</text>
+    <rect x="622" y="328" width="58" height="18" rx="9" fill="#dbeafe"/>
+    <text x="651" y="341" text-anchor="middle" font-size="10.5" fill="#1d4ed8">threeview</text>
+    <text x="504" y="373" font-size="11.5" font-family="Consolas,monospace" fill="#334155">ThreeViewQuiz.vue</text>
+    <text x="504" y="418" font-size="10.5" fill="#64748b">由三视图还原立体并作答</text>
+
+    <rect x="703" y="318" width="196" height="166" rx="12" fill="#ffffff" stroke="#bfdbfe" filter="url(#sh)"/>
+    <text x="717" y="345" font-size="14" font-weight="800" fill="#0f172a">涂色分割</text>
+    <rect x="835" y="328" width="58" height="18" rx="9" fill="#dbeafe"/>
+    <text x="864" y="341" text-anchor="middle" font-size="10.5" fill="#1d4ed8">paint</text>
+    <text x="717" y="373" font-size="11.5" font-family="Consolas,monospace" fill="#334155">PaintLab.vue</text>
+    <text x="717" y="418" font-size="10.5" fill="#64748b">正方体表面涂色 / 分割推演</text>
+
+    <rect x="916" y="318" width="196" height="166" rx="12" fill="#ffffff" stroke="#bfdbfe" filter="url(#sh)"/>
+    <text x="930" y="345" font-size="14" font-weight="800" fill="#0f172a">结构探索</text>
+    <rect x="1048" y="328" width="58" height="18" rx="9" fill="#dbeafe"/>
+    <text x="1077" y="341" text-anchor="middle" font-size="10.5" fill="#1d4ed8">structure</text>
+    <text x="930" y="373" font-size="11.5" font-family="Consolas,monospace" fill="#334155">StructureLab.vue</text>
+    <text x="930" y="418" font-size="10.5" fill="#64748b">透视结构 · 内部遮挡关系</text>
+
+    <rect x="1129" y="318" width="196" height="166" rx="12" fill="#ffffff" stroke="#bfdbfe" filter="url(#sh)"/>
+    <text x="1143" y="345" font-size="14" font-weight="800" fill="#0f172a">搭积木</text>
+    <rect x="1261" y="328" width="58" height="18" rx="9" fill="#dbeafe"/>
+    <text x="1290" y="341" text-anchor="middle" font-size="10.5" fill="#1d4ed8">blocks</text>
+    <text x="1143" y="373" font-size="11.5" font-family="Consolas,monospace" fill="#334155">BlockLab.vue</text>
+    <text x="1143" y="418" font-size="10.5" fill="#64748b">单位小方块搭建立体组合</text>
+
+    <rect x="1342" y="318" width="196" height="166" rx="12" fill="#ffffff" stroke="#bfdbfe" filter="url(#sh)"/>
+    <text x="1356" y="345" font-size="14" font-weight="800" fill="#0f172a">展开图判断</text>
+    <rect x="1474" y="328" width="58" height="18" rx="9" fill="#dbeafe"/>
+    <text x="1503" y="341" text-anchor="middle" font-size="10.5" fill="#1d4ed8">quiz</text>
+    <text x="1356" y="373" font-size="11.5" font-family="Consolas,monospace" fill="#334155">CubeNetQuiz.vue</text>
+    <text x="1356" y="418" font-size="10.5" fill="#64748b">判断展开图能否折回正方体</text>
+  </g>
+
+  <!-- ② 区说明行 -->
+  <text x="40" y="540" font-size="13.5" font-weight="700" fill="#0f172a">五大主题实验室 + 益智游戏（壳组件与 keep-alive 子栏目结构）：</text>
+  <text x="500" y="540" font-size="12" fill="#64748b">子组件用 onActivated / onDeactivated 管理键盘监听与计时器，切换栏目不丢进度</text>
+
+  <!-- 五个实验室卡 -->
+  <g font-size="12">
+    <!-- 分数 -->
+    <g>
+      <rect x="40" y="556" width="288" height="264" rx="14" fill="#ffffff" stroke="#e8e8e8" filter="url(#sh)"/>
+      <rect x="46" y="562" width="276" height="36" rx="9" fill="#f97316"/>
+      <text x="62" y="586" font-size="13.5" font-weight="700" fill="#ffffff">🍕 分数实验室 FractionLab</text>
+      <text x="58" y="642" font-weight="800" fill="#c2410c">壳 FractionLab.vue · keep-alive</text>
+      <text x="58" y="668" fill="#475569">10 个栏目组件（fractions/ 目录）</text>
+      <text x="58" y="694" fill="#475569">栏目由 data/fractions/lessons.js 配置驱动</text>
+      <text x="58" y="720" fill="#475569">工具：fracUtils.js（通分 / 约分 / 加减）</text>
+      <text x="58" y="746" fill="#475569">例题组件复用同一套动画工具</text>
+      <text x="58" y="780" font-family="Consolas,monospace" font-size="11.5" fill="#64748b">?lab=frac&amp;fmod=&lt;lesson key&gt;</text>
+    </g>
+    <!-- 面积 -->
+    <g>
+      <rect x="348" y="556" width="288" height="264" rx="14" fill="#ffffff" stroke="#e8e8e8" filter="url(#sh)"/>
+      <rect x="354" y="562" width="276" height="36" rx="9" fill="#059669"/>
+      <text x="370" y="586" font-size="13.5" font-weight="700" fill="#ffffff">📐 面积实验室 AreaLab</text>
+      <text x="366" y="642" font-weight="800" fill="#047857">壳 AreaLab.vue · keep-alive</text>
+      <text x="366" y="668" fill="#475569">栏目：图形库 / 公式推导 / 随机测验</text>
+      <text x="366" y="694" fill="#475569">组件：AreaGallery · AreaDerive ·</text>
+      <text x="378" y="712" fill="#475569">AreaQuiz · AreaCompose</text>
+      <text x="366" y="738" fill="#475569">面积图元：AreaShape · AreaTile</text>
+      <text x="366" y="780" font-family="Consolas,monospace" font-size="11.5" fill="#64748b">?lab=area&amp;amod=gallery|derive|quiz</text>
+    </g>
+    <!-- 小数 -->
+    <g>
+      <rect x="656" y="556" width="288" height="264" rx="14" fill="#ffffff" stroke="#e8e8e8" filter="url(#sh)"/>
+      <rect x="662" y="562" width="276" height="36" rx="9" fill="#0891b2"/>
+      <text x="678" y="586" font-size="13.5" font-weight="700" fill="#ffffff">🔢 小数实验室 DecimalLab</text>
+      <text x="674" y="642" font-weight="800" fill="#155e75">壳 DecimalLab.vue · keep-alive</text>
+      <text x="674" y="668" fill="#475569">栏目：概念引入 / 数位网格 / 数线 / 加减</text>
+      <text x="674" y="694" fill="#475569">组件：DecimalIntro · DecimalGrid ·</text>
+      <text x="686" y="712" fill="#475569">DecimalLine · DecimalAdd</text>
+      <text x="674" y="738" fill="#475569">图形辅助：DecFigure</text>
+      <text x="674" y="780" font-family="Consolas,monospace" font-size="11.5" fill="#64748b">?lab=dec&amp;dmod=intro|grid|line|addsub</text>
+    </g>
+    <!-- 单位 -->
+    <g>
+      <rect x="964" y="556" width="288" height="264" rx="14" fill="#ffffff" stroke="#e8e8e8" filter="url(#sh)"/>
+      <rect x="970" y="562" width="276" height="36" rx="9" fill="#7c3aed"/>
+      <text x="986" y="586" font-size="13.5" font-weight="700" fill="#ffffff">⚖️ 单位换算 UnitLab</text>
+      <text x="982" y="642" font-weight="800" fill="#6d28d9">壳 UnitLab.vue · keep-alive</text>
+      <text x="982" y="668" fill="#475569">栏目：换算 / 阶梯 / 闯关 / 比大小</text>
+      <text x="982" y="694" fill="#475569">组件：UnitConvert · UnitLadder</text>
+      <text x="994" y="712" fill="#475569">UnitQuiz · UnitCompare</text>
+      <text x="982" y="738" fill="#475569">数据：data/units/ 进率与换算规则</text>
+      <text x="982" y="780" font-family="Consolas,monospace" font-size="11.5" fill="#64748b">?lab=unit&amp;umod=convert|ladder|quiz</text>
+    </g>
+    <!-- 益智游戏 -->
+    <g>
+      <rect x="1272" y="556" width="288" height="264" rx="14" fill="#ffffff" stroke="#e8e8e8" filter="url(#sh)"/>
+      <rect x="1278" y="562" width="276" height="36" rx="9" fill="#e11d48"/>
+      <text x="1294" y="586" font-size="13.5" font-weight="700" fill="#ffffff">🧩 益智游戏 GamesLab</text>
+      <text x="1290" y="642" font-weight="800" fill="#be123c">壳 GamesLab.vue · keep-alive</text>
+      <text x="1290" y="668" fill="#475569">🔢 2048 —— Game2048.vue</text>
+      <text x="1290" y="694" fill="#475569">🧩 数字华容道 —— SlidePuzzle.vue</text>
+      <text x="1290" y="720" fill="#475569">🃏 24 点 —— TwentyFour.vue</text>
+      <text x="1290" y="746" fill="#475569">🎲 数独 —— SudokuGame.vue</text>
+      <text x="1290" y="780" font-family="Consolas,monospace" font-size="11.5" fill="#64748b">?lab=games&amp;gmod=2048|puzzle|…</text>
+    </g>
+  </g>
+
+  <!-- 连接箭头 ②区→③ -->
+  <line x1="820" y1="822" x2="820" y2="846" stroke="#94a3b8" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <!-- ============ ③ 共享支撑层 ============ -->
+  <rect x="40" y="852" width="1520" height="224" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="64" y="884" font-size="18.5" font-weight="800" fill="#0f172a">③ 共享支撑层 —— 与具体课程无关的底层模块</text>
+  <text x="1536" y="884" text-anchor="end" font-size="12" fill="#64748b">纯函数优先，可在 Node 侧离线验证（有解 / 唯一解 / 展开正确性）</text>
+
+  <g font-size="11.5">
+    <!-- three.js 与几何核心 -->
+    <g>
+      <rect x="56" y="906" width="360" height="154" rx="10" fill="#ffffff" stroke="#e2e8f0"/>
+      <text x="70" y="930" font-size="13.5" font-weight="800" fill="#1e40af">three.js + 自研几何核心</text>
+      <text x="70" y="954" fill="#475569">three.js ^0.179 —— WebGL 渲染引擎</text>
+      <text x="70" y="976" fill="#475569">（运行时唯一第三方运行时依赖）</text>
+      <text x="70" y="998" fill="#475569">src/geometry/ —— 几何算法库：</text>
+      <text x="70" y="1018" font-family="Consolas,monospace" font-size="11" fill="#1e293b">factory.js · unfold.js · netSvg.js</text>
+      <text x="70" y="1042" fill="#64748b">参数化建模 / 展开折叠 / SVG 展开图输出</text>
+    </g>
+    <!-- 数据 -->
+    <g>
+      <rect x="432" y="906" width="360" height="154" rx="10" fill="#ffffff" stroke="#e2e8f0"/>
+      <text x="446" y="930" font-size="13.5" font-weight="800" fill="#b45309">src/data 题库与教学数据</text>
+      <text x="446" y="954" fill="#475569">shapes.js —— 几何图形库（面板 / 示例）</text>
+      <text x="446" y="976" fill="#475569">quizBuilder.js —— 组卷 / 出题逻辑</text>
+      <text x="446" y="998" fill="#475569">cubeQuizNets.js —— 展开图判断题库</text>
+      <text x="446" y="1020" fill="#475569">学科目录：fractions / decimals / area</text>
+      <text x="446" y="1042" fill="#64748b">均为纯数据 / 纯函数，无运行时 IO</text>
+    </g>
+    <!-- 工具 -->
+    <g>
+      <rect x="808" y="906" width="360" height="154" rx="10" fill="#ffffff" stroke="#e2e8f0"/>
+      <text x="822" y="930" font-size="13.5" font-weight="800" fill="#15803d">src/utils 通用工具</text>
+      <text x="822" y="954" fill="#475569">sfx.js —— Web Audio 实时合成音效</text>
+      <text x="822" y="976" fill="#64748b">（合并 / 移动 / 胜利 / 答错 · 零音频文件）</text>
+      <text x="822" y="1000" fill="#475569">sudoku.js —— 唯一解数独生成器</text>
+      <text x="822" y="1022" fill="#475569">音效按需加载：首次用户手势内创建</text>
+      <text x="822" y="1042" fill="#475569">AudioContext 并 resume</text>
+    </g>
+    <!-- 样式与工程 -->
+    <g>
+      <rect x="1184" y="906" width="360" height="154" rx="10" fill="#ffffff" stroke="#e2e8f0"/>
+      <text x="1198" y="930" font-size="13.5" font-weight="800" fill="#0f766e">样式与交互工程</text>
+      <text x="1198" y="954" fill="#475569">全局 style.css + 组件级 scoped CSS</text>
+      <text x="1198" y="976" fill="#475569">卡片式轻 UI · emoji 图标 · 纯 CSS 动画</text>
+      <text x="1198" y="1000" fill="#475569">响应式：移动 / 桌面双布局适配</text>
+      <text x="1198" y="1022" fill="#475569">键盘事件按需监听（游戏方向键等）</text>
+      <text x="1198" y="1042" fill="#64748b">无 CSS 框架 · 无 UI 组件库</text>
+    </g>
+  </g>
+
+  <!-- 连接箭头 ③→④ -->
+  <line x1="820" y1="1078" x2="820" y2="1094" stroke="#94a3b8" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <!-- ============ ④ 构建与部署 ============ -->
+  <rect x="40" y="1098" width="1520" height="88" rx="14" fill="#0f172a"/>
+  <text x="64" y="1132" font-size="15" font-weight="700" fill="#ffffff">④ 构建与部署 —— Vite 7 工程 · 纯静态交付</text>
+  <text x="64" y="1156" font-size="12.5" fill="#cbd5e1">npm run dev（:5173 热更）· npm run build → dist/ · npm run preview</text>
+  <text x="64" y="1176" font-size="12.5" fill="#94a3b8">零后端 / 零数据库 / 无环境变量依赖，产物可托管至任意静态服务（Nginx · CDN · GitHub Pages · CloudBase 等）</text>
+  <text x="1536" y="1164" text-anchor="end" font-size="12.5" fill="#7dd3fc">构建产物仅 ~Vue + three.js</text>
+</svg>

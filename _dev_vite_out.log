@@ -1,0 +1,69 @@
+
+> geometry-space-lab@1.0.0 dev
+> vite
+
+
+  [32m[1mVITE[22m v7.3.6[39m  [2mready in [0m[1m582[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://192.168.31.166:[1m5173[22m/[39m
+[2m21:43:32[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue[22m
+[2m21:43:32[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue[22m
+[2m21:43:34[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/style.css[22m
+[2m21:49:18[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue[22m
+[2m21:49:19[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue[22m
+[2m21:49:22[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue[22m
+[2m21:49:22[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue[22m
+[2m21:49:23[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue[22m
+[2m21:49:23[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/App.vue[22m
+[2m21:49:28[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/games/GamesLab.vue[22m
+[2m21:49:46[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue[22m
+[2m21:49:51[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/games/Game2048.vue[22m
+[2m21:50:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.vue[22m
+[2m21:50:24[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/style.css[22m
+[2m21:50:45[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/games/Game2048.vue[22m
+[2m21:50:45[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/games/Game2048.vue[22m
+[2m21:50:46[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/games/Game2048.vue[22m
+[2m22:00:20[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/games/Game2048.vue[22m
+[2m22:00:20[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/games/Game2048.vue[22m
+[2m22:00:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/games/Game2048.vue[22m
+[2m22:00:26[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/games/SlidePuzzle.vue[22m
+[2m22:00:26[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/games/SlidePuzzle.vue[22m
+[2m22:00:31[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/games/SlidePuzzle.vue[22m
+[2m22:00:34[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/games/SlidePuzzle.vue[22m
+[2m22:00:35[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/games/SlidePuzzle.vue?vue&type=style&index=0&scoped=6aa36d42&lang.css[22m
+[2m22:00:44[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/games/SlidePuzzle.vue?vue&type=style&index=0&scoped=6aa36d42&lang.css[22m
+[2m22:09:04[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/games/Game2048.vue, /src/components/games/SlidePuzzle.vue[22m
+[2m22:09:35[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/games/GamesLab.vue[22m
+[2m22:10:01[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/games/TwentyFour.vue[22m
+[2m22:10:06[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/games/TwentyFour.vue[22m
+[2m22:10:16[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/games/TwentyFour.vue[22m
+[2m22:16:03[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/games/GamesLab.vue[22m
+[2m22:16:05[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/games/SudokuGame.vue[22m
+[2m22:25:51[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m_dev_arch_render.html[22m
+[2m22:25:51[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m_dev_arch_render.html[22m
+[2m22:26:23[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m_tmp_arch2/Default/Extensions/Temp/scoped_dir4872_774469255/CRX_INSTALL/options.html[22m
+[2m22:26:23[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m_tmp_arch2/Default/Extensions/Temp/scoped_dir4872_774469255/CRX_INSTALL/popup.html[22m
+[2m22:26:23[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m_tmp_arch2/Default/Extensions/Temp/scoped_dir4872_774469255/CRX_INSTALL/xl-images.html[22m
+[2m22:26:23[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m_tmp_arch2/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.5_0/options.html[22m
+[2m22:26:23[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m_tmp_arch2/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.5_0/popup.html[22m
+[2m22:26:23[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m_tmp_arch2/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.5_0/xl-images.html[22m
+[2m22:26:23[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m_tmp_arch2/Default/Extensions/Temp/scoped_dir4872_774469255/CRX_INSTALL/options.html[22m
+[2m22:26:23[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m_tmp_arch2/Default/Extensions/Temp/scoped_dir4872_774469255/CRX_INSTALL/popup.html[22m
+[2m22:26:23[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m_tmp_arch2/Default/Extensions/Temp/scoped_dir4872_774469255/CRX_INSTALL/xl-images.html[22m
+[2m22:27:12[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m_tmp_arch3/Default/Extensions/Temp/scoped_dir10640_433624532/CRX_INSTALL/options.html[22m
+[2m22:27:12[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m_tmp_arch3/Default/Extensions/Temp/scoped_dir10640_433624532/CRX_INSTALL/popup.html[22m
+[2m22:27:12[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m_tmp_arch3/Default/Extensions/Temp/scoped_dir10640_433624532/CRX_INSTALL/xl-images.html[22m
+[2m22:27:12[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m_tmp_arch3/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.5_0/options.html[22m
+[2m22:27:12[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m_tmp_arch3/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.5_0/popup.html[22m
+[2m22:27:12[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m_tmp_arch3/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.5_0/xl-images.html[22m
+[2m22:27:12[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m_tmp_arch3/Default/Extensions/Temp/scoped_dir10640_433624532/CRX_INSTALL/options.html[22m
+[2m22:27:12[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m_tmp_arch3/Default/Extensions/Temp/scoped_dir10640_433624532/CRX_INSTALL/popup.html[22m
+[2m22:27:12[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m_tmp_arch3/Default/Extensions/Temp/scoped_dir10640_433624532/CRX_INSTALL/xl-images.html[22m
+[2m22:27:46[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m_dev_arch_render.html[22m
+[2m22:32:37[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m_tmp_arch2/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.5_0/options.html[22m
+[2m22:32:37[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m_tmp_arch2/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.5_0/popup.html[22m
+[2m22:32:37[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m_tmp_arch2/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.5_0/xl-images.html[22m
+[2m22:32:37[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m_tmp_arch3/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.5_0/options.html[22m
+[2m22:32:37[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m_tmp_arch3/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.5_0/popup.html[22m
+[2m22:32:37[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m_tmp_arch3/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.5_0/xl-images.html[22m

@@ -1,0 +1,63 @@
+[2m09:33:20[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m Re-optimizing dependencies because vite config has changed
+
+  [32m[1mVITE[22m v7.3.6[39m  [2mready in [0m[1m1639[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5174[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://192.168.31.166:[1m5174[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[2m09:33:33[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: <tr> cannot be child of <table>, according to HTML specifications. This can cause hydration errors or potentially disrupt future functionality.
+46 |              <strong>数出来啦！</strong>
+47 |              <table class="st-table">
+48 |                <tr><td>面（F）</td><td class="num">{{ F }}</td></tr>
+   |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+49 |                <tr><td>顶点（V）</td><td class="num">{{ V }}</td></tr>
+50 |                <tr><td>棱（E）</td><td class="num">{{ E }}</td></tr>[39m
+  Plugin: [35mvite:vue[39m
+  File: [36mD:/github/geometry-space-lab-unfold-v2/src/components/StructureLab.vue[39m
+[2m09:33:33[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: <tr> cannot be child of <table>, according to HTML specifications. This can cause hydration errors or potentially disrupt future functionality.
+47 |              <table class="st-table">
+48 |                <tr><td>面（F）</td><td class="num">{{ F }}</td></tr>
+49 |                <tr><td>顶点（V）</td><td class="num">{{ V }}</td></tr>
+   |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+50 |                <tr><td>棱（E）</td><td class="num">{{ E }}</td></tr>
+51 |              </table>[39m
+  Plugin: [35mvite:vue[39m
+  File: [36mD:/github/geometry-space-lab-unfold-v2/src/components/StructureLab.vue[39m
+[2m09:33:33[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: <tr> cannot be child of <table>, according to HTML specifications. This can cause hydration errors or potentially disrupt future functionality.
+48 |                <tr><td>面（F）</td><td class="num">{{ F }}</td></tr>
+49 |                <tr><td>顶点（V）</td><td class="num">{{ V }}</td></tr>
+50 |                <tr><td>棱（E）</td><td class="num">{{ E }}</td></tr>
+   |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+51 |              </table>
+52 |              <div class="st-euler">[39m
+  Plugin: [35mvite:vue[39m
+  File: [36mD:/github/geometry-space-lab-unfold-v2/src/components/StructureLab.vue[39m
+[2m09:35:13[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/D:/github/geometry-space-lab-unfold-v2/src/components/PaintLab.vue[22m
+[2m09:35:30[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/D:/github/geometry-space-lab-unfold-v2/src/components/PaintLab.vue[22m
+[2m09:45:13[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/D:/github/geometry-space-lab-unfold-v2/src/components/PaintLab.vue[22m
+[2m09:45:58[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/D:/github/geometry-space-lab-unfold-v2/src/components/PaintLab.vue[22m
+[2m10:20:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/D:/github/geometry-space-lab-unfold-v2/src/components/StructureLab.vue[22m
+[2m10:20:24[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/D:/github/geometry-space-lab-unfold-v2/src/components/StructureLab.vue[22m
+[2m10:20:27[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/D:/github/geometry-space-lab-unfold-v2/src/components/StructureLab.vue[22m
+[2m10:20:33[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/D:/github/geometry-space-lab-unfold-v2/src/components/StructureLab.vue[22m
+[2m10:20:35[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/D:/github/geometry-space-lab-unfold-v2/src/components/StructureLab.vue[22m
+[2m10:20:38[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/D:/github/geometry-space-lab-unfold-v2/src/components/StructureLab.vue?vue&type=style&index=0&scoped=693c39c4&lang.css[22m
+[2m11:41:46[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/D:/github/geometry-space-lab-unfold-v2/src/App.vue[22m
+[2m11:41:47[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/D:/github/geometry-space-lab-unfold-v2/src/App.vue[22m
+[2m11:41:48[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/D:/github/geometry-space-lab-unfold-v2/src/App.vue[22m
+[2m11:41:48[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/D:/github/geometry-space-lab-unfold-v2/src/App.vue[22m
+[2m13:13:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/D:/github/geometry-space-lab-unfold-v2/src/components/StructureLab.vue[22m
+[2m13:13:37[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/D:/github/geometry-space-lab-unfold-v2/src/components/PaintLab.vue[22m
+[2m13:13:40[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/D:/github/geometry-space-lab-unfold-v2/src/components/PaintLab.vue[22m
+[2m14:42:58[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/D:/github/geometry-space-lab-unfold-v2/src/style.css[22m
+[2m14:42:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/D:/github/geometry-space-lab-unfold-v2/src/App.vue[22m
+[2m14:43:01[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/D:/github/geometry-space-lab-unfold-v2/src/App.vue[22m
+[2m14:43:02[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/D:/github/geometry-space-lab-unfold-v2/src/App.vue[22m
+[2m14:43:03[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/D:/github/geometry-space-lab-unfold-v2/src/App.vue[22m
+[2m15:07:58[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/D:/github/geometry-space-lab-unfold-v2/src/App.vue[22m
+[2m15:08:10[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/D:/github/geometry-space-lab-unfold-v2/src/App.vue[22m
+[2m15:08:15[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/D:/github/geometry-space-lab-unfold-v2/src/App.vue[22m
+[2m15:08:19[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/D:/github/geometry-space-lab-unfold-v2/src/App.vue[22m
+[2m15:08:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/D:/github/geometry-space-lab-unfold-v2/src/App.vue[22m
+[2m15:08:24[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/D:/github/geometry-space-lab-unfold-v2/src/style.css[22m
+[2m15:08:33[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/D:/github/geometry-space-lab-unfold-v2/src/style.css[22m
